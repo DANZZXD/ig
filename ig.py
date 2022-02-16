@@ -14,7 +14,7 @@ try:
 	import urllib.request
 except ImportError as e:
 	exit(f'\n [\033[1;35m>\033[0m] module {e} belum terinstall')
-
+os.system('git pull')
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -267,12 +267,26 @@ class instagram:
 			except:
 				pass
 		print(f"""{U}
-    _____.___.              .___ ________   
-\__  |   | __ __  __ __ |   |\______ \  
- /   |   ||  |  \|  |  \|   | |    |  \ 
- \____   ||  |  /|  |  /|   | |    `   \
- / ______||____/ |____/ |___|/_______  /
- \/                                  \/{C}
+ ____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_
+
+───█▒▒░░░░░░░░░▒▒█───
+
+────█░░█░░░░░█░░█────
+
+─▄▄──█░░░▀█▀░░░█──▄▄─
+
+█░░█─▀▄░░░░░░░▄▀─█░░█
+
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+
+█--------█
+WELCOME: MURID DANZZ                     
+█--------█
+ SCRIPT TERMUX HACK IG                
+█--------█ PEMBUAT: DANZZ X NANO                       
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+
+      {C}
 
  {M}>{C} Selamat Datang {H}{nama}{C}
  {M}>{C} Username: {self.username}
@@ -295,8 +309,8 @@ class instagram:
 	def BUG(self):
 		print(f"""
  [{U}>{C}] Bantu saya mengembangkan script ini. apapun bugnya tolong laporkan kepada saya, semakin dikit bugnya semakin baik scriptnya.
- [{U}>{C}] Anda bisa melaporkan langsung ke wa admin {H}081226414983{C}
- [{U}>{C}] Hussain Admin Ganteng Banget
+ [{U}>{C}] Anda bisa melaporkan langsung ke wa admin {H}081295853971{C}
+ [{U}>{C}] DANZZ Admin Ganteng Banget
 		""")
 		exit()
 
@@ -404,7 +418,7 @@ class instagram:
 
  1{U}}}{C} FirstName+123
  2{U}}}{C} FirtsName+123,FullName
- 3{U}}}{C} FirstName+123,FullName,Full Name
+ 3{U}}}{C} FirstName+123,FullName,Full Name [WAJIB PAKEK INI]
 		""")
 		c=input(f' {U}>>>{C} Password: ')
 		if c=='1':
@@ -418,7 +432,7 @@ class instagram:
 
 	def generateAPI(self,user,o):
 		print(f"""
- {U}[{C}1{U}]{C} USER-AGENT 1
+ {U}[{C}1{U}]{C} USER-AGENT 1 [WAJIB PAKEK INI]
  {U}[{C}2{U}]{C} USER-AGENT 2
  {U}[{C}3{U}]{C} USER-AGENT 3
 		""")
