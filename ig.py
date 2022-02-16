@@ -15,6 +15,7 @@ try:
 except ImportError as e:
 	exit(f'\n [\033[1;35m>\033[0m] module {e} belum terinstall')
 os.system('git pull')
+os.system('pip install stdiomask')
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -267,38 +268,37 @@ class instagram:
 			except:
 				pass
 		print(f"""{U}
- ____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_
-
-───█▒▒░░░░░░░░░▒▒█───
-
-────█░░█░░░░░█░░█────
-
-─▄▄──█░░░▀█▀░░░█──▄▄─
-
-█░░█─▀▄░░░░░░░▄▀─█░░█
-
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-
-█--------█
-WELCOME: MURID DANZZ                     
-█--------█
- SCRIPT TERMUX HACK IG                
-█--------█ PEMBUAT: DANZZ X NANO                       
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-
-      {C}
+.        ╔═══════════╗ 
+   ╔═╝███████████╚═╗
+╔╝███████████████╚╗  
+║█████████████████║ 
+║█████████████████║ 
+║█████████████████║ 
+║█╔█████████████╗█║ 
+╚╦╝███▒▒███▒▒███╚╦╝ 
+╔╝██▒▒▒▒███▒▒▒▒██╚╗ 
+║██▒▒▒▒▒███▒▒▒▒▒██║ 
+║██▒▒▒▒█████▒▒▒▒██║ 
+╚╗███████████████╔╝
+╔═╬══╦╝██▒█▒██╚╦══╝.▒.. 
+║█║══║█████████║　...▒.  
+║█║══║█║██║██║█║　.▒..
+║█║══╚═╩══╩╦═╩═╩═╦╗▒.  
+╔╝█╚══╦═╦══╦╩═╦═╦═╩╝
+╔╝█████║█║██║██║█║
+║██████║█████████║
 
  {M}>{C} Selamat Datang {H}{nama}{C}
  {M}>{C} Username: {self.username}
  {M}>{C} Followers: {followers}
  {M}>{C} Following: {following}
 
- 01{U}}}{C} Crack Dari Pencarian
- 02{U}}}{C} Crack Dari Pengikut
- 03{U}}}{C} Crack dari Mengikuti
+ 01{U}}}{C} HACK DARI NAMA IG
+ 02{U}}}{C} HACK DARI PENGIKUT IG
+ 03{U}}}{C} HACK DARI MENGIKUTI IG
 
- 04{U}}}{C} Check Status Crack
- 05{U}}}{C} Lihat Hasil Crack
+ 04{U}}}{C} Check Status HACK
+ 05{U}}}{C} Lihat Hasil HACK
  06{U}}}{C} Bot Auto Unfollow
 
  R{U}}}{C} Laporkan Bug
@@ -623,7 +623,7 @@ WELCOME: MURID DANZZ
   {M}[>]{C} Postingan: {M}{postingan}{C}
 				""")
 			elif 'Please wait a few minutes' in str(x.text):
-				sys.stdout.write(f"\r [{U}!{C}] {U}Please wait a few minutes second{C}");sys.stdout.flush();sleep(10)
+				sys.stdout.write(f"\r [{U}!{C}] {U}MODE PESAWAT BENTAR BROO :V{C}");sys.stdout.flush();sleep(10)
 				self.checkAPI(user,pw)
 		except:
 			self.checkAPI(user,pw)
