@@ -14,8 +14,8 @@ try:
 	import urllib.request
 except ImportError as e:
 	exit(f'\n [\033[1;35m>\033[0m] module {e} belum terinstall')
-os.system('git pull')
-os.system('pip install stdiomask')
+#os.system('git pull')
+#os.system('pip install stdiomask')
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -59,7 +59,7 @@ except:
 	urllib_quote_plus = urllib.parse.quote_plus
 
 def cekAPI(cookie):
-	user=open('username','r').read()
+	user=open('.username','r').read()
 	try:
 		c=requests.get("https://www.instagram.com/%s/?__a=1"%(user),cookies={'cookie':cookie},headers={"user-agent":USN})
 		i=c.json()["graphql"]["user"]
@@ -95,7 +95,7 @@ def login():
 
 	x=instagramAPI(us,pw).loginAPI()
 	if x.get('status')=='success':
-		open('username','a').write(us)
+		open('.username','a').write(us)
 		open('.kukis.log','a').write(x.get('cookie'))
 		cookie={'cookie':x.get('cookie')}
 		print(f'\n{H}>{C} Login berhasil')
